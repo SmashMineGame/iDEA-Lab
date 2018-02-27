@@ -198,13 +198,18 @@ header a:hover {
   padding: 4px;
   width: 200px;
   height: 25px;
+  border: none;
+}
+
+#sign button {
+  height: 33px;
 }
 
 #sign .action {
   margin-left: 8px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   #sign button {
     float: none;
   }
@@ -241,7 +246,7 @@ header a:hover {
   height: auto;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   #cards .card {
     float: none;
   }
@@ -279,6 +284,21 @@ article#main-col {
     text-align: center;
     width: 100%;
   }
+}
+
+/* progress bar */
+
+.progress-bar, .progress {
+  width: 100%;
+  height: 20px;
+  margin: 10px 0;
+  background: var(--black);
+  border-radius: 10px;
+}
+
+.progress {
+  width: 75%;
+  background: var(--secondary);
 }
 
 /* reroute */
@@ -330,7 +350,7 @@ article#main-col {
 
 footer {
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
   color: var(--white);
   background: var(--primary);
   text-align: center;
