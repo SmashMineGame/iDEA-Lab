@@ -1,3 +1,5 @@
+$("#step1").prop("checked", true);
+
 $('#step1').click(function() {
   $('.progress').css("width", "25%");
 });

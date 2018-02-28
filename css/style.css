@@ -298,7 +298,7 @@ article#main-col {
 }
 
 .progress {
-  width: 100%;
+  width: 25%;
   background: var(--secondary);
   transition: width 2s ease;
   background: repeating-linear-gradient( 45deg, var(--secondary), var(--secondary) 10px, var(--light-secondary) 10px, var(--light-secondary) 20px);
@@ -309,6 +309,8 @@ article#main-col {
 }
 
 .label {
+  min-width: 60px;
+  text-align: center;
   display: inline-block;
   margin: 10px 20px;
   padding: 3px 5px;
@@ -323,6 +325,8 @@ article#main-col {
   color: var(--white);
   transition: 0.5s ease;
 }
+
+#inputs {}
 
 /* reroute */
 
