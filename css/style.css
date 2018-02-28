@@ -93,6 +93,10 @@ body {
   margin-bottom: 10px;
 }
 
+.bg-secondary {
+  background: var(--secondary);
+}
+
 .bottom {
   position: absolute;
   bottom: 0px;
@@ -368,20 +372,17 @@ article#main-col {
   color: var(--white);
 }
 
-#reroute a button {
-  background: var(--secondary);
-}
-
 @media (max-width: 576px) {
   #reroute #action-item, #reroute h1 {
     float: none;
     width: 100%;
   }
   #reroute h1 {
-    margin-left: 25%;
+    text-align: center;
   }
   #reroute #action-item {
-    margin-left: 35%;
+    width: 50%;
+    margin: auto;
   }
 }
 
