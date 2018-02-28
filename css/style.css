@@ -3,6 +3,7 @@
   --grey: #D9E1E5;
   --black: #181818;
   --secondary: #0B5AB1;
+  --light-secondary: #3f96f3;
   --primary: #D94704;
 }
 
@@ -297,9 +298,10 @@ article#main-col {
 }
 
 .progress {
-  width: 50%;
+  width: 100%;
   background: var(--secondary);
   transition: width 2s ease;
+  background: repeating-linear-gradient( 45deg, var(--secondary), var(--secondary) 10px, var(--light-secondary) 10px, var(--light-secondary) 20px);
 }
 
 .radio {
@@ -320,10 +322,6 @@ article#main-col {
   background: var(--black);
   color: var(--white);
   transition: 0.5s ease;
-}
-
-#step1:checked~.progress-bar>.progress {
-  width: 25%;
 }
 
 /* reroute */
