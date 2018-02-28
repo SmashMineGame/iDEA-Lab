@@ -250,10 +250,14 @@ header a:hover {
 
 #cards .card {
   float: left;
-  text-align: center;
   width: 30%;
   min-height: 275px;
+  text-align: center;
   padding: 10px;
+}
+
+#cards .card p {
+  text-align: left;
 }
 
 #cards .card img {
@@ -264,6 +268,9 @@ header a:hover {
 @media (max-width: 575px) {
   #cards .card {
     float: none;
+  }
+  #cards .card p {
+    text-align: center;
   }
   #cards .card img {
     width: 200px;
