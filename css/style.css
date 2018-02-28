@@ -333,7 +333,9 @@ article#main-col {
   min-width: 60px;
   text-align: center;
   display: inline-block;
-  margin: 10px 20px;
+  margin: 10px;
+  margin-right: 0;
+  margin-left: 20%;
   padding: 3px 5px;
   background: var(--white);
   color: var(--black);
@@ -347,7 +349,7 @@ article#main-col {
   transition: 0.5s ease;
 }
 
-#inputs {}
+#progress-inputs {}
 
 /* reroute */
 
