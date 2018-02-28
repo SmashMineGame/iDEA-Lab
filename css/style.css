@@ -213,10 +213,22 @@ header a:hover {
 @media (max-width: 575px) {
   #sign button {
     float: none;
+    width: 540px;
+    margin-top: 3px !important;
   }
   #sign input {
+    width: 540px !important;
     margin-bottom: 3px;
-    width: 540px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #sign input {
+    width: 45%;
+  }
+  #sign button {
+    margin-top: 10px;
   }
 }
 
