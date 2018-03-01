@@ -358,7 +358,16 @@ article#main-col {
 #progress-inputs {}
 
 #step1+label {
-  margin-left: 10% !important;
+  margin-left: 10%;
+}
+
+.info-div {
+  margin: none;
+  border-radius: 15px;
+}
+
+.info-div .info-text {
+  padding: 10px 15px;
 }
 
 /* reroute */
