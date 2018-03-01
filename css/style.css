@@ -366,6 +366,10 @@ article#main-col {
   border-radius: 15px;
 }
 
+.info-div h1 {
+  text-align: center;
+}
+
 .info-div .info-text {
   padding: 10px 15px;
 }
