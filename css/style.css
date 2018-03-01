@@ -341,7 +341,7 @@ article#main-col {
   display: inline-block;
   margin: 10px;
   margin-right: 0;
-  margin-left: 20%;
+  margin-left: 18%;
   padding: 3px 5px;
   background: var(--white);
   color: var(--black);
@@ -356,6 +356,10 @@ article#main-col {
 }
 
 #progress-inputs {}
+
+#step1+label {
+  margin-left: 10% !important;
+}
 
 /* reroute */
 
