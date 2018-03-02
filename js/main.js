@@ -27,5 +27,3 @@ $('#step4').click(function() {
   fadeAll();
   $('#apply').delay(500).fadeIn(500);
 });
-
-$('#action-item a button').click(function() {});

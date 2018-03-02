@@ -352,7 +352,7 @@ article#main-col {
 .radio:checked+.label {
   background: var(--black);
   color: var(--white);
-  transition: 0.5s ease;
+  transition: background, color 0.5s ease;
 }
 
 #progress-inputs {}
@@ -372,6 +372,29 @@ article#main-col {
 
 .info-div .info-text {
   padding: 10px 15px;
+}
+
+@media (max-width: 575px) {
+  .label {
+    width: 22% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .label {
+    width: 22.5%;
+  }
+}
+
+@media (max-width: 991px) {
+  .label {
+    border-radius: 0;
+    margin: 0;
+    width: 22.5%;
+  }
+  #step1+label {
+    margin-left: 0;
+  }
 }
 
 /* reroute */
