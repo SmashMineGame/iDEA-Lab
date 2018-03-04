@@ -304,6 +304,11 @@ aside#sidebar {
 article#main-col {
   float: left;
   width: 65%;
+  margin-top: 35px;
+}
+
+aside#sidebar p, article#main-col p {
+  font-size: 1.1em;
 }
 
 @media (max-width: 768px) {
@@ -352,13 +357,13 @@ article#main-col {
 .radio:checked+.label {
   background: var(--black);
   color: var(--white);
-  transition: background, color 0.5s ease;
+  transition: 0.5s ease;
 }
 
 #progress-inputs {}
 
 #step1+label {
-  margin-left: 10%;
+  margin-left: 12%;
 }
 
 .info-div {
@@ -374,15 +379,22 @@ article#main-col {
   padding: 10px 15px;
 }
 
+.info-text {
+  font-size: 1.25em;
+}
+
 @media (max-width: 575px) {
   .label {
-    width: 22% !important;
+    width: 20% !important;
   }
 }
 
 @media (max-width: 767px) {
   .label {
     width: 22.5%;
+  }
+  .info-text {
+    text-align: center;
   }
 }
 
