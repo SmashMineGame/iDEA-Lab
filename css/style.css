@@ -93,6 +93,14 @@ body {
   margin-bottom: 10px;
 }
 
+.light {
+  padding: 15px;
+  background: var(--white);
+  color: var(--black);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .bg-secondary {
   background: var(--secondary);
 }
@@ -304,7 +312,7 @@ aside#sidebar {
 article#main-col {
   float: left;
   width: 65%;
-  margin-top: 35px;
+  margin-top: 10px;
 }
 
 aside#sidebar p, article#main-col p {
@@ -366,11 +374,6 @@ aside#sidebar p, article#main-col p {
   margin-left: 12%;
 }
 
-.info-div {
-  margin: none;
-  border-radius: 15px;
-}
-
 .info-div h1 {
   text-align: center;
 }
@@ -383,15 +386,12 @@ aside#sidebar p, article#main-col p {
   font-size: 1.25em;
 }
 
-@media (max-width: 575px) {
-  .label {
-    width: 20% !important;
-  }
-}
-
 @media (max-width: 767px) {
-  .label {
-    width: 22.5%;
+  .info-div {
+    display: block !important;
+  }
+  .progress-bar, #progress-inputs {
+    display: none;
   }
   .info-text {
     text-align: center;
